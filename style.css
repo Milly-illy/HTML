@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    padding:20px;
+    display: flex;
+    border-bottom: solid rgb(90, 21, 19) 4px;
+}
+.corpo{
+    background-color: #FFD43E;
+    height: 87vb;
+    width: 100%;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.pesquisa input{
+    border-radius: 15px;
+    width: 200px;
+    background-color: #c8c8c8;
+}
+
+#lupa{
+    background: url("./search.png") no-repeat right/1.3em;
+    padding-left: 1.2em;
+    background-color: #c8c8c8;
+}
+
+.brasil, .carrinho, .user{
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    right: 41%;
+    top: 5%;
+}
+
+.barradireita{
+    position: absolute;
+    right: 0%;
+    bottom: -0.5%;
+}
+
+.barraesquerda{
+    position: absolute;
+    left: 0%;
+    bottom: -0.5%;
+}
+
+.imghome{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+.slid1{
+    width: 1000px;
+    border-radius: 160px;
+    background-color: #ffeba4;
+    padding: 10px;
+}
+
+.slid2{
+    width: 400px;
+    border-radius: 1200px;
+    background-color: #ffeba4;
+    padding: 10px;
+}
+
+.slid3{
+    width: 550px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 50px;
+}
+#tubinho{
+    position: absolute;
+    right: 60%;
+    bottom: 25%;
+}
+#mm-azul{
+    position: absolute;
+    right: 43%;
+    bottom: 25%;
+}
+#mm-marrom{
+    position: absolute; 
+    right: 22%;
+    bottom: 25%;
+}
+#mm-marrom-pequeno{
+    position: absolute; 
+    right: 2%;
+    bottom: 25%;
+}
+#mm-amarelo{
+    position: absolute; 
+    right: 80%;
+    bottom: 30%;
+}
+.corpo h1{
+    text-align: center;
+}
+
+.contato{
+    position: absolute;
+    top: 200px;
+    margin-left: 400px;
+}
+
+.slid4{
+    width: 500px;
+    border-radius: 160px;
+    background-color: #ffeba4;
+    padding: 10px;
+}
+.slid5{
+    width: 500px;
+    border-radius: 160px;
+    background-color: #ffeba4;
+    padding: 10px;
+}
+.slid6{
+    width: 500px;
+    border-radius: 160px;
+    background-color: #ffeba4;
+    padding: 10px;
+}
+.slid7{
+    width: 500px;
+    border-radius: 160px;
+    background-color: #ffeba4;
+    padding: 10px;
+}
+.slid8{
+    width: 500px;
+    border-radius: 160px;
+    background-color: #ffeba4;
+    padding: 10px;
+}

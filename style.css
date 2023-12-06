@@ -157,3 +157,51 @@
     background-color: #ffeba4;
     padding: 10px;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    max-width: 1000px;
+    padding: 100px;
+    background-color: #f5e695;
+    border: 1px solid rgba(0, 0, 0, 0.76);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(129, 122, 122);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+

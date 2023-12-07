@@ -92,31 +92,6 @@
     justify-content: center;
     top: 50px;
 }
-#tubinho{
-    position: absolute;
-    right: 60%;
-    bottom: 25%;
-}
-#mm-azul{
-    position: absolute;
-    right: 43%;
-    bottom: 25%;
-}
-#mm-marrom{
-    position: absolute; 
-    right: 22%;
-    bottom: 25%;
-}
-#mm-marrom-pequeno{
-    position: absolute; 
-    right: 2%;
-    bottom: 25%;
-}
-#mm-amarelo{
-    position: absolute; 
-    right: 80%;
-    bottom: 30%;
-}
 .corpo h1{
     text-align: center;
 }
@@ -145,37 +120,22 @@
     background-color: #ffeba4;
     padding: 10px;
 }
-.slid7{
-    width: 500px;
-    border-radius: 160px;
-    background-color: #ffeba4;
-    padding: 10px;
-}
-.slid8{
-    width: 500px;
-    border-radius: 160px;
-    background-color: #ffeba4;
-    padding: 10px;
-}
-body {
+.login-container {
+    max-width: 400px;
+    padding: 100px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 27);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(255, 255, 27);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+    height: 50vh; 
+    margin: 0 auto; 
+    margin-top: 10%;
 }
-
-.login-container {
-    max-width: 1000px;
-    padding: 100px;
-    background-color: #f5e695;
-    border: 1px solid rgba(0, 0, 0, 0.76);
-    border-radius: 30px;
-    box-shadow: 0 0 10px rgb(129, 122, 122);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
-
 h2 {
     text-align: center;
 }
@@ -204,4 +164,20 @@ button {
     cursor: pointer;
     
 }
-
+#bory-login{
+    background-color: #FFD43E;
+}
+#letra{
+    color: black;
+    text-shadow: 0 0 10px rgb(255, 255, 27);
+}
+#usuario{
+    color: black;
+}
+#senha{
+    color: black;
+}
+.carousel-inner{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
